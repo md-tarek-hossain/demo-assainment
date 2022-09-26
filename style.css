@@ -7,4 +7,33 @@ body {
     font-family: 'Ibarra Real Nova', serif;
     font-family: 'Oswald', sans-serif;
     font-family: 'Poppins', sans-serif;
+    margin: 0%;
+}
+
+section {
+    display: flex;
+    padding: 50px;
+}
+
+.flix {
+    width: 50%;
+}
+
+.flix img {
+    width: 80%;
+    padding-left: 100px;
+}
+
+.download-button {
+    text-decoration: none;
+    background-image: linear-gradient(tomato, orange);
+    padding: 5px;
+    border-radius: 5px;
+    font-weight: 700;
+}
+
+.first-section {
+    background-image: url(images/shapes/top-banner.png);
+    background-repeat: no-repeat;
+
 }
